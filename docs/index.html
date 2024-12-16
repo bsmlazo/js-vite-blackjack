@@ -2,13 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/js-vite-blackjack/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blackjack</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script type="module" crossorigin src="/assets/index-jGs2wlXP.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-CUWcSojI.css">
+    <script type="module" crossorigin src="/js-vite-blackjack/assets/index-COw5RvGb.js"></script>
+    <link rel="stylesheet" crossorigin href="/js-vite-blackjack/assets/index-CUWcSojI.css">
   </head>
   <body>
     <header class="titulo">
@@ -18,8 +18,8 @@
     <div class="row mt-2">
         <div id="divBotones" class="col text-center">
             <button id="btnNuevo" class="btn btn-danger">Nuevo Juego</button>
-            <button id="btnPedir" disabled="disabled" class="btn btn-primary">Pedir carta</button>
-            <button id="btnDetener" disabled="disabled" class="btn btn-primary">Detener</button>
+            <button id="btnPedir" disabled class="btn btn-primary">Pedir carta</button>
+            <button id="btnDetener" disabled class="btn btn-primary">Detener</button>
         </div>
     </div>
 
@@ -45,7 +45,6 @@
         </div>
         <h1 id="txtGanador" style="text-align: center;">¿Quién Ganará?</h1>
     </div>
-
     <div id="app"></div>
   </body>
 </html>
